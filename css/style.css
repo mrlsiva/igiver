@@ -486,6 +486,19 @@ border: none;
   }
    */
   @media screen and (max-width: 1024px) {
+    .p-0 {
+      padding: 0 !important;
+    }
+    button {
+      
+      /* width: fit-content; */
+      padding: 8px 8px !important;
+      font-size: 12px !important;
+      /* width: 100% !important; */
+  }
+  .brand img {
+    max-width: 100%;
+  }
     .timeline-item {
       width: 100%;
       padding: 1.35rem 2rem;
